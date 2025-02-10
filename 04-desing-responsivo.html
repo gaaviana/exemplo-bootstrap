@@ -13,16 +13,35 @@
         <h2>Exemplo 1: aplicando colunas no grid (auto-layout)</h2>
 
         <!-- A classe "row" indica que ali é uma linha (row) que terá colunas no layout -->
-        <div class="row">
+        <div class="row gx-1">
             <!-- A classe "col" indica que essa é uma coluna do layout -->
             <div class="col">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero non eum repellat dolorum nobis cum modi officia? Unde, minus soluta?</p>
+                <p class="bg-success-subtle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero non eum repellat dolorum nobis cum modi officia? Unde, minus soluta?</p>
             </div>
 
             <div class="col">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero non eum repellat dolorum nobis cum modi officia? Unde, minus soluta?</p>
+                <p class="bg-primary-subtle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero non eum repellat dolorum nobis cum modi officia? Unde, minus soluta?</p>
             </div>
         </div>
+
+        <hr>
+
+        <h2>Exemplo 2: colunas com tamanhos diferentes</h2>
+
+        <div class="row gx-1">
+            <div class="col-5">
+                <h3>Coluna A</h3>
+                <p class="bg-danger-subtle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam impedit, omnis nemo reiciendis voluptatibus quas necessitatibus in doloremque beatae libero?</p>
+            </div>
+
+            <div class="col-7">
+                <h3>Coluna B</h3>
+                <p class="bg-dark-subtle"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam impedit, omnis nemo reiciendis voluptatibus quas necessitatibus in doloremque beatae libero?</p>
+                <p class="bg-dark-subtle"> Quas necessitatibus in doloremque beatae libero?</p>
+            </div>
+        </div>
+
+
     </div>
 
 
